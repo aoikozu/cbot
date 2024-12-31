@@ -3,6 +3,7 @@
 name: Lint
 
 on:
+  workflow_dispatch:  # 手動実行を有効化
   push:
     paths:
       - '*.py'
