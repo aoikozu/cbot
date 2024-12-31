@@ -12,6 +12,7 @@
 name: "CodeQL"
 
 on:
+  workflow_dispatch:  # 手動実行を有効化
   push:
     branches: [ main ]
   pull_request:
